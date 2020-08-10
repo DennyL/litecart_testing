@@ -1,3 +1,4 @@
+from datetime import datetime
 from test.generators import generators
 
 
@@ -7,6 +8,8 @@ class Product:
     """
     def __init__(self):
 
+        self.date = datetime.now()
+
         # GENERAL
         self.product_name = generators.item_names_generator(prefix='item_', length=8)
         self.code = generators.item_codes_generator(prefix='#', length=3)
@@ -15,8 +18,8 @@ class Product:
         self.gtin = generators.item_codes_generator(prefix='GTIN_', length=5)
         self.taric = generators.item_codes_generator(prefix='TARIC_', length=5)
         self.manufacturer = '1'
-        self.date_valid_from = '10/02/2019'
-        self.date_valid_to = '11/03/2020'
+        self.date_valid_from = f'{self.date.day}/{self.date.month}/{self.date.year}'
+        self.date_valid_to = f'{self.date.day}/{self.date.month}/{self.date.year + 1}'
         self.keywords = self.product_name[:8]
         self.image = generators.item_picture_provider()
 

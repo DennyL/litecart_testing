@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from test.pages.base_page import BasePage
 from test.testdata.testdata import Product
+from time import sleep
 
 
 class CatalogPageLocators:
@@ -54,9 +55,13 @@ class CatalogPage(BasePage, CatalogPageLocators):
     """ Methods to interact with the Catalog Page """
 
     def open(self):
-        """ opens the Catalog page from Admin page. Admin page has to be opened beforehand """
-        WebDriverWait(self.driver, 5).until(ec.element_to_be_clickable(self.catalog_page_main))
-        self.driver.find_element(*self.catalog_page_main).click()
+        """
+            Opens the Catalog page from Admin page.
+            Admin page has to be opened beforehand
+        """
+        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located(self.catalog_page_main))
+        catalog_li = self.driver.find_element(*self.catalog_page_main)
+        catalog_li.click()
 
     def upload_product_image(self, abs_path_to_image: str):
         """
@@ -71,18 +76,19 @@ class CatalogPage(BasePage, CatalogPageLocators):
             :param product: an instance of a Product class from testdata/testdata
         """
         self.driver.find_element(*self.general_tab).click()
-        self.driver.find_element(*self.general_name).send_keys(product.product_name)
         self.driver.find_element(*self.general_code).send_keys(product.code)
         self.driver.find_element(*self.general_sku).send_keys(product.sku)
         self.driver.find_element(*self.general_mpn).send_keys(product.mpn)
         self.driver.find_element(*self.general_gtin).send_keys(product.gtin)
         self.driver.find_element(*self.general_taric).send_keys(product.taric)
+        self.driver.find_element(*self.general_name).send_keys(product.product_name)
         manufacturer_selector = Select(self.driver.find_element(*self.general_manufacturer_select))
         manufacturer_selector.select_by_value(product.manufacturer)
         self.driver.find_element(*self.general_date_valid_from).send_keys(product.date_valid_from)
         self.driver.find_element(*self.general_date_valid_to).send_keys(product.date_valid_to)
         self.driver.find_element(*self.general_keywords).send_keys(product.keywords)
         self.upload_product_image(product.image)
+        sleep(5)
 
     def fill_out_information_tab(self, product):
         """

@@ -81,7 +81,6 @@ class AdminPageLocators:
 
 
 class AdminPage(BasePage, AdminPageLocators):
-
     """ Methods to interact with the Admin Page """
 
     def open(self):
