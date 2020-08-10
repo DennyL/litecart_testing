@@ -5,7 +5,6 @@ from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from test.pages.base_page import BasePage
 from test.testdata.testdata import Product
-from time import sleep
 
 
 class CatalogPageLocators:
@@ -88,7 +87,6 @@ class CatalogPage(BasePage, CatalogPageLocators):
         self.driver.find_element(*self.general_date_valid_to).send_keys(product.date_valid_to)
         self.driver.find_element(*self.general_keywords).send_keys(product.keywords)
         self.upload_product_image(product.image)
-        sleep(5)
 
     def fill_out_information_tab(self, product):
         """
