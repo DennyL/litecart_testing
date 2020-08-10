@@ -13,7 +13,7 @@ class URLs:
 
     # ENDPOINTS
     main_page_endpoint = '/'
-    admin_page_endpoint = '/admin'
+    admin_page_endpoint = '/admin/'
 
     # Joint URLs (base urls with endpoints)
     url_main_page = base_url + main_page_endpoint
@@ -55,7 +55,6 @@ class Browser:
         # to switch to an event driver
         # UNCOMMENT THE LINE BELOW:
         # self.driver = self.event_driver
-
         self.driver.maximize_window()
 
     def destroy_and_quit(self):

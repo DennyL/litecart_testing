@@ -16,13 +16,14 @@ class MainPageLocators:
     go_to_cart_button = (By.CSS_SELECTOR, 'div#cart a')
     cart_qty_badge = (By.CSS_SELECTOR, 'div#cart a .badge.quantity')
     cart_remove_item_button = (By.CSS_SELECTOR, '.item button[name="remove_cart_item"]')
+    cart_is_empty_message = (By.XPATH, '//p[contains(text(),"There are no items in your cart.")]')
 
     @staticmethod
     def popular_products_locators(qty) -> list:
         """
-        generates and returns a list of popular products locators in range of ids provided as a parameter
-        :param qty: number of product locators to be returned
-        :return: list of locators
+            generates and returns a list of popular products locators in range of ids provided as a parameter
+            :param qty: number of product locators to be returned
+            :return: list of locators
         """
         locators_list = []
         for id_ in range(1, qty + 1):
@@ -38,7 +39,8 @@ class MainPage(BasePage, MainPageLocators):
         self.driver.get(self.page_url)
 
     def is_cart_qty_badge_number_grew(self, action):
-        """ decorator that wraps an action passed as a parameter.
+        """
+            decorator that wraps an action passed as a parameter.
             Checks the number displayed on the cart quantity badge before running the action.
             Waits till the number increased by 1
             :param action function to wrap
@@ -72,11 +74,12 @@ class MainPage(BasePage, MainPageLocators):
         self.click_on(self.go_to_cart_button)
 
     def remove_all_items_in_cart(self):
-        """ removes all items from the cart by clicking on the Remove button against each item in there """
-        while True:
+        """
+            removes all items from the cart by clicking on the Remove button against each item in there
+        """
+        while not self.driver.find_elements(*self.cart_is_empty_message):
+            # click on the remove button till cart_is_empty_message appears
             try:
                 self.click_on(self.cart_remove_item_button)
             except StaleElementReferenceException:
                 continue
-            except (TimeoutException, NoSuchElementException):
-                break
