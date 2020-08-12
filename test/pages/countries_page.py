@@ -1,10 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-from test.pages.base_page import BasePage
+from test.pages.base_page import BasePage, BasePageLocators
 
 
-class CountriesPageLocators:
+class CountriesPageLocators(BasePageLocators):
 
     first_country_in_the_list = (By.XPATH, '//tbody/tr/td[5]/a')
 

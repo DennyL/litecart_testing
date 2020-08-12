@@ -3,11 +3,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
-from test.pages.base_page import BasePage
+from test.pages.base_page import BasePage, BasePageLocators
 from test.testdata.testdata import Product
+from time import sleep
 
 
-class CatalogPageLocators:
+class CatalogPageLocators(BasePageLocators):
 
     catalog_page_main = (By.CSS_SELECTOR, 'ul#box-apps-menu li.app[data-code=catalog]')
     catalog_subpage = (By.CSS_SELECTOR, 'li.doc[data-code=catalog]')
@@ -58,7 +59,7 @@ class CatalogPage(BasePage, CatalogPageLocators):
             Opens the Catalog page from Admin page.
             Admin page has to be opened beforehand
         """
-        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located(self.catalog_page_main))
+        WebDriverWait(self.driver, 10).until(ec.presence_of_element_located(self.sign_out_button))
         catalog_li = self.driver.find_element(*self.catalog_page_main)
         catalog_li.click()
 
@@ -75,12 +76,14 @@ class CatalogPage(BasePage, CatalogPageLocators):
             :param product: an instance of a Product class from testdata/testdata
         """
         self.driver.find_element(*self.general_tab).click()
+        # WebDriverWait(self.driver, 5).until(ec.element_to_be_clickable(self.general_name))
+        sleep(0.5)
+        self.driver.find_element(*self.general_name).send_keys(product.product_name)
         self.driver.find_element(*self.general_code).send_keys(product.code)
         self.driver.find_element(*self.general_sku).send_keys(product.sku)
         self.driver.find_element(*self.general_mpn).send_keys(product.mpn)
         self.driver.find_element(*self.general_gtin).send_keys(product.gtin)
         self.driver.find_element(*self.general_taric).send_keys(product.taric)
-        self.driver.find_element(*self.general_name).send_keys(product.product_name)
         manufacturer_selector = Select(self.driver.find_element(*self.general_manufacturer_select))
         manufacturer_selector.select_by_value(product.manufacturer)
         self.driver.find_element(*self.general_date_valid_from).send_keys(product.date_valid_from)
@@ -147,7 +150,8 @@ class CatalogPage(BasePage, CatalogPageLocators):
             in the generators/item_names_generator()
         """
         self.driver.find_element(*self.catalog_subpage).click()
-        WebDriverWait(self.driver, 5).until(ec.presence_of_element_located(self.search_box))
+        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located(self.search_box))
+        self.driver.find_element(*self.search_box).click()
         self.driver.find_element(*self.search_box).send_keys(keyword)
         self.driver.find_element(*self.search_button).click()
         self.driver.find_element(*self.select_all_products_checkbox).click()

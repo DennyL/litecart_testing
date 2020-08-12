@@ -3,10 +3,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 from test.config import URLs
-from test.pages.base_page import BasePage
+from test.pages.base_page import BasePage, BasePageLocators
 
 
-class MainPageLocators:
+class MainPageLocators(BasePageLocators):
 
     """ Locators for the Main Page """
 
@@ -81,5 +81,5 @@ class MainPage(BasePage, MainPageLocators):
             # click on the remove button till cart_is_empty_message appears
             try:
                 self.click_on(self.cart_remove_item_button)
-            except StaleElementReferenceException:
+            except (StaleElementReferenceException, TimeoutException, NoSuchElementException):
                 continue

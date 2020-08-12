@@ -1,9 +1,12 @@
 from selenium.webdriver.common.by import By
-from test.pages.base_page import BasePage
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as ec
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from test.pages.base_page import BasePage, BasePageLocators
 from test.config import URLs
 
 
-class AdminPageLocators:
+class AdminPageLocators(BasePageLocators):
 
     """ Locators for the Admin Page """
 
@@ -94,3 +97,11 @@ class AdminPage(BasePage, AdminPageLocators):
         self.driver.find_element(*self.login_box).send_keys(credentials['username'])
         self.driver.find_element(*self.password_box).send_keys(credentials['password'])
         self.driver.find_element(*self.login_button).click()
+
+    def is_logging_in_done(self) -> bool:
+        try:
+            WebDriverWait(self.driver, 5).until(ec.visibility_of_element_located(self.sign_out_button))
+        except (TimeoutException, NoSuchElementException):
+            return False
+        else:
+            return True

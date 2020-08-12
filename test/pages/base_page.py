@@ -1,7 +1,13 @@
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from test.helpers.helpers import highlight_element
+
+
+class BasePageLocators:
+    """ Locators common to all Pages """
+    sign_out_button = (By.CSS_SELECTOR, 'a[title="Logout"]')
 
 
 class BasePage:

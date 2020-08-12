@@ -19,7 +19,10 @@ def admin_page(browser, request):
     page = AdminPage(browser)
     page.open()
     page.login_with(request.param)
-    yield page
+    if page.is_logging_in_done() is True:
+        yield page
+    else:
+        raise Exception('Fail to Log In')
 
 
 @pytest.fixture(scope='session')
