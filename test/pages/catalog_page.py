@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from test.pages.base_page import BasePage, BasePageLocators
+from test.config import URLs
 from test.testdata.testdata import Product
 from time import sleep
 
@@ -59,7 +60,7 @@ class CatalogPage(BasePage, CatalogPageLocators):
             Opens the Catalog page from Admin page.
             Admin page has to be opened beforehand
         """
-        WebDriverWait(self.driver, 10).until(ec.presence_of_element_located(self.sign_out_button))
+        WebDriverWait(self.driver, 10).until(ec.visibility_of_element_located((By.XPATH, '//*[contains(text(), "Catalog")]')))
         catalog_li = self.driver.find_element(*self.catalog_page_main)
         catalog_li.click()
 
