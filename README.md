@@ -2,11 +2,11 @@
 
 Small Page-Object/module based testing framework for UI testing of Litecart.
 
-Means used:
+Tools used:
 - Pytest (runner),
-- Selenium Webdriver (as 'hands' for UI testing),
+- Selenium Webdriver ('hands' for UI testing),
 - Allure (reporter);
-- Event driver listeners
+- Event driver listeners (optional)
 
 
 Install requirements from the root folder.

@@ -4,7 +4,6 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.ui import Select
 from selenium.common.exceptions import NoSuchElementException
 from test.pages.base_page import BasePage, BasePageLocators
-from test.config import URLs
 from test.testdata.testdata import Product
 from time import sleep
 
@@ -74,11 +73,11 @@ class CatalogPage(BasePage, CatalogPageLocators):
     def fill_out_general_tab(self, product):
         """
             fills out required fields in the Catalog -> New Product Creation -> tab General
-            :param product: an instance of a Product class from testdata/testdata
+            :param : product: an instance of a Product class from testdata/testdata
         """
         self.driver.find_element(*self.general_tab).click()
         # WebDriverWait(self.driver, 5).until(ec.element_to_be_clickable(self.general_name))
-        sleep(0.5)
+        sleep(0.5)  # <<< Yeah, bad practice. Usage justified by the fact that waits not helping here, alas.
         self.driver.find_element(*self.general_name).send_keys(product.product_name)
         self.driver.find_element(*self.general_code).send_keys(product.code)
         self.driver.find_element(*self.general_sku).send_keys(product.sku)
