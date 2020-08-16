@@ -1,4 +1,5 @@
 import pytest
+import allure
 
 
 @pytest.fixture
@@ -11,6 +12,7 @@ def product_creation(catalog_page):
     catalog_page.remove_created_products_from_catalog(keyword='item')
 
 
+@allure.title('Items are added into a cart. Qty badge on the cart icon displays correct information')
 def test_add_items_to_the_cart(main_page):
     """
         verifies if product items can be added to a cart,
@@ -24,6 +26,7 @@ def test_add_items_to_the_cart(main_page):
         main_page.open()
 
 
+@allure.title('Items can be removed from a cart')
 def test_remove_all_items_from_cart(main_page):
     """
         verifies if product items can be removed from a cart,
@@ -36,6 +39,7 @@ def test_remove_all_items_from_cart(main_page):
     assert main_page.cart_badge_number == 0
 
 
+@allure.title('Creation of a product with certain fields followed by its presence in the root catalog')
 def test_product_creation(catalog_page, product_creation):
     """
         verifies creation of a product in the catalog page,

@@ -1,8 +1,10 @@
 import pytest
+import allure
 from test.pages.admin_page import AdminPage
 from test.pages.countries_page import CountriesPage
 
 
+@allure.title('Presence of a header in each page of the shop')
 @pytest.mark.parametrize('page_locators', AdminPage.left_side_menu_items_locators)
 @pytest.mark.parametrize('header', (AdminPage.header_for_all_pages,))
 def test_presence_of_element_in_pages(admin_page, page_locators, header):
@@ -15,6 +17,7 @@ def test_presence_of_element_in_pages(admin_page, page_locators, header):
         assert admin_page.is_element_present_in_page(header) is True
 
 
+@allure.title('All external links in the Country page are opened in a new tab')
 @pytest.mark.parametrize('external_links', CountriesPage.in_country_external_links_locators)
 def test_countries_external_links(countries_page, external_links):
     """
