@@ -1,0 +1,2479 @@
+{
+   "created": 1598471773.5142858,
+   "duration": 64.48289346694946,
+   "exitcode": 0,
+   "root": "/home/denys/Documents/GitHub/litecart_testing",
+   "environment": {
+      "Python": "3.7.3",
+      "Platform": "Linux-4.19.0-10-amd64-x86_64-with-debian-10.5",
+      "Packages": {
+         "pytest": "5.4.3",
+         "py": "1.8.1",
+         "pluggy": "0.13.1"
+      },
+      "Plugins": {
+         "allure-pytest": "2.8.16",
+         "json-report": "1.2.1",
+         "metadata": "1.10.0"
+      }
+   },
+   "summary": {
+      "passed": 72,
+      "total": 72,
+      "collected": 72
+   },
+   "collectors": [
+      {
+         "nodeid": "",
+         "outcome": "passed",
+         "result": [
+            {
+               "nodeid": "test/__init__.py",
+               "type": "Package"
+            },
+            {
+               "nodeid": "test/generators/__init__.py",
+               "type": "Package"
+            },
+            {
+               "nodeid": "test/helpers/__init__.py",
+               "type": "Package"
+            },
+            {
+               "nodeid": "test/listeners/__init__.py",
+               "type": "Package"
+            },
+            {
+               "nodeid": "test/pages/__init__.py",
+               "type": "Package"
+            },
+            {
+               "nodeid": "test/tests/__init__.py",
+               "type": "Package"
+            }
+         ]
+      },
+      {
+         "nodeid": "test/__init__.py",
+         "outcome": "passed",
+         "result": []
+      },
+      {
+         "nodeid": "test/generators/__init__.py",
+         "outcome": "passed",
+         "result": []
+      },
+      {
+         "nodeid": "test/helpers/__init__.py",
+         "outcome": "passed",
+         "result": []
+      },
+      {
+         "nodeid": "test/listeners/__init__.py",
+         "outcome": "passed",
+         "result": []
+      },
+      {
+         "nodeid": "test/pages/__init__.py",
+         "outcome": "passed",
+         "result": []
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py",
+         "outcome": "passed",
+         "result": [
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators0]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators1]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators2]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators3]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators4]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators5]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators6]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators7]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators8]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators9]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators10]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators11]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators12]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators13]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators14]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators15]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators16]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators17]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators18]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators19]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators20]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators21]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators22]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators23]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators24]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators25]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators26]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators27]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators28]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators29]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators30]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators31]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators32]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators33]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators34]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators35]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators36]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators37]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators38]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators39]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators40]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators41]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators42]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators43]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators44]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators45]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators46]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators47]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators48]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators49]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators50]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators51]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators52]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators53]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators54]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators55]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators56]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators57]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators58]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators59]",
+               "type": "Function",
+               "lineno": 6
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links0]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links1]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links2]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links3]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links4]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links5]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links6]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links7]",
+               "type": "Function",
+               "lineno": 19
+            },
+            {
+               "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links8]",
+               "type": "Function",
+               "lineno": 19
+            }
+         ]
+      },
+      {
+         "nodeid": "test/tests/test_suite_4.py",
+         "outcome": "passed",
+         "result": [
+            {
+               "nodeid": "test/tests/test_suite_4.py::test_add_items_to_the_cart",
+               "type": "Function",
+               "lineno": 14
+            },
+            {
+               "nodeid": "test/tests/test_suite_4.py::test_remove_all_items_from_cart",
+               "type": "Function",
+               "lineno": 28
+            },
+            {
+               "nodeid": "test/tests/test_suite_4.py::test_product_creation[admin_page0]",
+               "type": "Function",
+               "lineno": 41
+            }
+         ]
+      },
+      {
+         "nodeid": "test/tests/__init__.py",
+         "outcome": "passed",
+         "result": [
+            {
+               "nodeid": "test/tests/test_suite_3.py",
+               "type": "Module"
+            },
+            {
+               "nodeid": "test/tests/test_suite_4.py",
+               "type": "Module"
+            }
+         ]
+      }
+   ],
+   "tests": [
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators0]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators0]",
+            "admin_page0-header0-page_locators0",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 5.980017185211182,
+            "outcome": "passed",
+            "stdout": " \n",
+            "stderr": "[WDM] - Current google-chrome version is 85.0.4183\n[WDM] - Get LATEST driver version for 85.0.4183\n[WDM] - Driver [/home/denys/.wdm/drivers/chromedriver/linux64/85.0.4183.83/chromedriver] found in cache\n",
+            "log": [
+               {
+                  "name": "WDM",
+                  "msg": "Current google-chrome version is 85.0.4183",
+                  "args": null,
+                  "levelname": "INFO",
+                  "levelno": 20,
+                  "pathname": "/home/denys/Documents/GitHub/litecart_testing/venv/lib/python3.7/site-packages/webdriver_manager/logger.py",
+                  "filename": "logger.py",
+                  "module": "logger",
+                  "exc_info": null,
+                  "exc_text": null,
+                  "stack_info": null,
+                  "lineno": 24,
+                  "funcName": "log",
+                  "created": 1598471709.8472085,
+                  "msecs": 847.2084999084473,
+                  "relativeCreated": 1017.3046588897705,
+                  "thread": 140360045659968,
+                  "threadName": "MainThread",
+                  "processName": "MainProcess",
+                  "process": 8663
+               },
+               {
+                  "name": "WDM",
+                  "msg": "Get LATEST driver version for 85.0.4183",
+                  "args": null,
+                  "levelname": "INFO",
+                  "levelno": 20,
+                  "pathname": "/home/denys/Documents/GitHub/litecart_testing/venv/lib/python3.7/site-packages/webdriver_manager/logger.py",
+                  "filename": "logger.py",
+                  "module": "logger",
+                  "exc_info": null,
+                  "exc_text": null,
+                  "stack_info": null,
+                  "lineno": 14,
+                  "funcName": "log",
+                  "created": 1598471709.8475068,
+                  "msecs": 847.5067615509033,
+                  "relativeCreated": 1017.6029205322266,
+                  "thread": 140360045659968,
+                  "threadName": "MainThread",
+                  "processName": "MainProcess",
+                  "process": 8663
+               },
+               {
+                  "name": "WDM",
+                  "msg": "Driver [/home/denys/.wdm/drivers/chromedriver/linux64/85.0.4183.83/chromedriver] found in cache",
+                  "args": null,
+                  "levelname": "INFO",
+                  "levelno": 20,
+                  "pathname": "/home/denys/Documents/GitHub/litecart_testing/venv/lib/python3.7/site-packages/webdriver_manager/logger.py",
+                  "filename": "logger.py",
+                  "module": "logger",
+                  "exc_info": null,
+                  "exc_text": null,
+                  "stack_info": null,
+                  "lineno": 14,
+                  "funcName": "log",
+                  "created": 1598471710.1909518,
+                  "msecs": 190.95182418823242,
+                  "relativeCreated": 1361.0479831695557,
+                  "thread": 140360045659968,
+                  "threadName": "MainThread",
+                  "processName": "MainProcess",
+                  "process": 8663
+               }
+            ]
+         },
+         "call": {
+            "duration": 0.544440746307373,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0014801025390625,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators1]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators1",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators1]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008471012115478516,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5175418853759766,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010259151458740234,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators2]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators2",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators2]"
+         ],
+         "setup": {
+            "duration": 0.0008614063262939453,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5320301055908203,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001294851303100586,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators3]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators3]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators3",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.000980377197265625,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5317935943603516,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012676715850830078,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators4]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators4]",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators4",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008196830749511719,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5269336700439453,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0011677742004394531,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators5]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators5",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators5]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0013489723205566406,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5493464469909668,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013089179992675781,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators6]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators6",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators6]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.001255035400390625,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5237760543823242,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012803077697753906,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators7]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators7]",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators7",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008883476257324219,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5246951580047607,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012500286102294922,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators8]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators8",
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators8]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008893013000488281,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5079021453857422,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0015978813171386719,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators9]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators9]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators9",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010929107666015625,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5200989246368408,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010590553283691406,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators10]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators10]",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "admin_page0-header0-page_locators10"
+         ],
+         "setup": {
+            "duration": 0.0008711814880371094,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5297141075134277,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010302066802978516,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators11]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators11",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators11]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008342266082763672,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5579521656036377,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0011436939239501953,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators12]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators12",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators12]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009174346923828125,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.8451547622680664,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010209083557128906,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators13]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators13",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators13]"
+         ],
+         "setup": {
+            "duration": 0.000827789306640625,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5140302181243896,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010614395141601562,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators14]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators14]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators14",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010595321655273438,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5189893245697021,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013604164123535156,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators15]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators15",
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators15]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0013206005096435547,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5244812965393066,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.03190970420837402,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators16]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators16]",
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators16",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008463859558105469,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5321364402770996,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001050710678100586,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators17]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators17]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators17",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.00083160400390625,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5180537700653076,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010254383087158203,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators18]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators18]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators18",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0016655921936035156,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.528754472732544,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.03188776969909668,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators19]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators19]",
+            "litecart_testing",
+            "allure_display_name",
+            "admin_page0-header0-page_locators19",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.00092315673828125,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5197739601135254,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010247230529785156,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators20]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators20",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators20]",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0029692649841308594,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5723972320556641,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010704994201660156,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators21]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators21",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators21]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009205341339111328,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6133124828338623,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0016813278198242188,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators22]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators22",
+            "litecart_testing",
+            "allure_display_name",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators22]",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0014793872833251953,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5185239315032959,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0017888545989990234,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators23]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators23",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators23]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010986328125,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5036227703094482,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0011832714080810547,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators24]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators24]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators24",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009925365447998047,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.54233717918396,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012540817260742188,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators25]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators25",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators25]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0012941360473632812,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5456397533416748,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010793209075927734,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators26]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators26",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators26]"
+         ],
+         "setup": {
+            "duration": 0.0012907981872558594,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5240621566772461,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0014984607696533203,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators27]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators27",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators27]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010535717010498047,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5439589023590088,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001031637191772461,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators28]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators28",
+            "allure_display_name",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators28]",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008831024169921875,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5217578411102295,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0011823177337646484,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators29]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators29",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators29]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010085105895996094,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5471994876861572,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0014045238494873047,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators30]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators30",
+            "test/tests/__init__.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators30]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0016646385192871094,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.51029372215271,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0015320777893066406,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators31]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators31",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators31]"
+         ],
+         "setup": {
+            "duration": 0.0012819766998291016,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5264949798583984,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013537406921386719,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators32]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators32",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators32]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010614395141601562,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6116085052490234,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0014393329620361328,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators33]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators33]",
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators33",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.003348112106323242,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5150787830352783,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0024988651275634766,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators34]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators34]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators34",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0020775794982910156,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.53731369972229,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012156963348388672,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators35]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators35]",
+            "parametrize",
+            "admin_page0-header0-page_locators35",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010263919830322266,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5406622886657715,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010464191436767578,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators36]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators36]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators36",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008265972137451172,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.594907283782959,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.002892017364501953,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators37]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators37",
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators37]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009090900421142578,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5659832954406738,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001068115234375,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators38]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "admin_page0-header0-page_locators38",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators38]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009560585021972656,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5582168102264404,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013358592987060547,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators39]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators39",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators39]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008652210235595703,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5424838066101074,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0015840530395507812,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators40]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators40",
+            "parametrize",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators40]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.007340192794799805,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6025218963623047,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0028896331787109375,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators41]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators41]",
+            "parametrize",
+            "admin_page0-header0-page_locators41",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009341239929199219,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5654852390289307,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001104593276977539,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators42]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators42",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators42]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009541511535644531,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5329055786132812,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.002223968505859375,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators43]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators43]",
+            "admin_page0-header0-page_locators43",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0027697086334228516,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5470526218414307,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013010501861572266,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators44]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators44]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "admin_page0-header0-page_locators44",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0011322498321533203,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5580382347106934,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0012290477752685547,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators45]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators45]",
+            "admin_page0-header0-page_locators45",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008306503295898438,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5230062007904053,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001276254653930664,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators46]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators46",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators46]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010790824890136719,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5240287780761719,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0014176368713378906,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators47]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators47",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators47]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010151863098144531,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5500967502593994,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.009549140930175781,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators48]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "admin_page0-header0-page_locators48",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators48]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009434223175048828,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5681889057159424,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.12311029434204102,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators49]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators49]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "admin_page0-header0-page_locators49"
+         ],
+         "setup": {
+            "duration": 0.0009253025054931641,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5179722309112549,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013613700866699219,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators50]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators50]",
+            "test/tests/__init__.py",
+            "admin_page0-header0-page_locators50",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0013353824615478516,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5044584274291992,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0015590190887451172,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators51]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators51",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators51]"
+         ],
+         "setup": {
+            "duration": 0.0008590221405029297,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5463201999664307,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010960102081298828,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators52]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-header0-page_locators52",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators52]"
+         ],
+         "setup": {
+            "duration": 0.0008189678192138672,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5383803844451904,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0015151500701904297,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators53]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators53]",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators53",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.001047372817993164,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5855515003204346,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010950565338134766,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators54]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators54]",
+            "admin_page0-header0-page_locators54",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008723735809326172,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.7443873882293701,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013442039489746094,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators55]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators55]",
+            "parametrize",
+            "admin_page0-header0-page_locators55",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.00087738037109375,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.3598616123199463,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013070106506347656,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators56]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-header0-page_locators56",
+            "litecart_testing",
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators56]",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.001123666763305664,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5395731925964355,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010228157043457031,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators57]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators57]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators57",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0011169910430908203,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5376391410827637,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001695871353149414,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators58]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators58]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test/tests/__init__.py",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators58",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010828971862792969,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5644569396972656,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001188039779663086,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_presence_of_element_in_pages[admin_page0-header0-page_locators59]",
+         "lineno": 6,
+         "outcome": "passed",
+         "keywords": [
+            "test_presence_of_element_in_pages[admin_page0-header0-page_locators59]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-header0-page_locators59",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010616779327392578,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5204892158508301,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0013556480407714844,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links0]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "admin_page0-external_links0",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "test_countries_external_links[admin_page0-external_links0]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 1.181401014328003,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5803372859954834,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0010542869567871094,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links1]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "admin_page0-external_links1",
+            "test_suite_3.py",
+            "test_countries_external_links[admin_page0-external_links1]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0007488727569580078,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.7393174171447754,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0016520023345947266,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links2]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "test_countries_external_links[admin_page0-external_links2]",
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-external_links2",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0016019344329833984,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5917270183563232,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0008215904235839844,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links3]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "test_countries_external_links[admin_page0-external_links3]",
+            "admin_page0-external_links3",
+            "allure_display_name",
+            "litecart_testing",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008325576782226562,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6342146396636963,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0007898807525634766,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links4]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "admin_page0-external_links4",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_countries_external_links[admin_page0-external_links4]",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008311271667480469,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6154026985168457,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0009493827819824219,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links5]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "admin_page0-external_links5",
+            "test/tests/__init__.py",
+            "test_countries_external_links[admin_page0-external_links5]",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0009102821350097656,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.5676190853118896,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0009636878967285156,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links6]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_countries_external_links[admin_page0-external_links6]",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "admin_page0-external_links6",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0010368824005126953,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6092491149902344,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.001077413558959961,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links7]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "test_countries_external_links[admin_page0-external_links7]",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "admin_page0-external_links7"
+         ],
+         "setup": {
+            "duration": 0.0008413791656494141,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6330347061157227,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0009725093841552734,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_3.py::test_countries_external_links[admin_page0-external_links8]",
+         "lineno": 19,
+         "outcome": "passed",
+         "keywords": [
+            "parametrize",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_3.py",
+            "test_countries_external_links[admin_page0-external_links8]",
+            "test/tests/__init__.py",
+            "admin_page0-external_links8",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0008022785186767578,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 0.6673417091369629,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0008499622344970703,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_4.py::test_product_creation[admin_page0]",
+         "lineno": 41,
+         "outcome": "passed",
+         "keywords": [
+            "test_product_creation[admin_page0]",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_4.py",
+            "test/tests/__init__.py",
+            "pytestmark",
+            "admin_page0"
+         ],
+         "setup": {
+            "duration": 0.31569838523864746,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 5.265920877456665,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 1.4435694217681885,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_4.py::test_add_items_to_the_cart",
+         "lineno": 14,
+         "outcome": "passed",
+         "keywords": [
+            "test_add_items_to_the_cart",
+            "litecart_testing",
+            "allure_display_name",
+            "test_suite_4.py",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.43743157386779785,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 6.319356441497803,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.0004467964172363281,
+            "outcome": "passed"
+         }
+      },
+      {
+         "nodeid": "test/tests/test_suite_4.py::test_remove_all_items_from_cart",
+         "lineno": 28,
+         "outcome": "passed",
+         "keywords": [
+            "test_suite_4.py",
+            "litecart_testing",
+            "allure_display_name",
+            "test_remove_all_items_from_cart",
+            "test/tests/__init__.py",
+            "pytestmark"
+         ],
+         "setup": {
+            "duration": 0.0005748271942138672,
+            "outcome": "passed"
+         },
+         "call": {
+            "duration": 3.685338258743286,
+            "outcome": "passed"
+         },
+         "teardown": {
+            "duration": 0.11266732215881348,
+            "outcome": "passed"
+         }
+      }
+   ]
+}
